@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityRole>
+@{
+    ViewData["Title"] = "Roles Page";
+}
+ 
+<section class="roles">
+    <div class="wrapper">
+        <div class="roles_wrapper">
+            <div class="roles_screen">
+                <table class="roles_table">
+                    @foreach (var role in Model)
+                    {
+                        <tr>
+                            <td>@role.Name</td>
+                            <td>
+                                <form asp-action="Delete" asp-route-id="@role.Id" method="post">
+                                    <button type="submit" class="btn btn-sm btn-danger">
+                                        Удалить
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                    </table>
+            </div>
+            <ul class="roles_list">
+                <li class="roles_item">
+                    <a class="roles_link" asp-action="Create">Добавить роль</a>
+                </li>
+                <li class="roles_item">
+                    <a class="roles_link" asp-action="UserList">Список пользователей</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

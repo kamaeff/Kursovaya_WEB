@@ -1,0 +1,24 @@
+﻿@model CustomIdentityApp.ViewModels.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Rgister Page";
+}
+
+<form method="post" asp-controller="Account" asp-action="Register" class="registerPage">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div>
+        <input class="registerPage_email" placeholder="Твой Email" asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <input class="registerPage_pass" placeholder="Придумай Пароль" asp-for="Password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <div>
+        <input class="registerPage_repass" placeholder="Повтори пароль" asp-for="PasswordConfirm" />
+        <span asp-validation-for="PasswordConfirm"></span>
+    </div>
+    <div>
+        <input class="registerPage_btn" type="submit" value="Регистрация" />
+    </div>
+</form>

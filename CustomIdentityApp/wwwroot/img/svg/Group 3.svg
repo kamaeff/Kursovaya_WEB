@@ -1,0 +1,15 @@
+<svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="45" cy="45" r="45" fill="#FFEF5A"/>
+<rect x="50" y="45" width="25" height="35" transform="rotate(90 50 45)" fill="#A37850"/>
+<rect x="15" y="45" width="35" height="1" fill="#CD9663"/>
+<rect x="15" y="69" width="35" height="1" fill="#CD9663"/>
+<rect x="50" y="45" width="24" height="1" transform="rotate(90 50 45)" fill="#CD9663"/>
+<rect x="16" y="45" width="24" height="1" transform="rotate(90 16 45)" fill="#CD9663"/>
+<rect x="15.6438" y="45.6036" width="40.9818" height="1" transform="rotate(34.5962 15.6438 45.6036)" fill="#CD9663"/>
+<rect x="76" y="70" width="25" height="35" transform="rotate(180 76 70)" fill="#A37850"/>
+<rect x="76" y="35" width="35" height="1" transform="rotate(90 76 35)" fill="#CD9663"/>
+<rect x="52" y="35" width="35" height="1" transform="rotate(90 52 35)" fill="#CD9663"/>
+<rect x="76" y="70" width="24" height="1" transform="rotate(180 76 70)" fill="#CD9663"/>
+<rect x="76" y="36" width="24" height="1" transform="rotate(180 76 36)" fill="#CD9663"/>
+<rect x="75.3964" y="35.6438" width="40.9818" height="1" transform="rotate(124.596 75.3964 35.6438)" fill="#CD9663"/>
+</svg>

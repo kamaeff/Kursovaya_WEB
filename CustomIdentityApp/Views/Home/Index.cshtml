@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+    <section class="bot">
+        @if (User.Identity.IsAuthenticated)
+        {
+        <img src="~/img/344.jpg" width="1150" height="700" alt="mainImg" class="main__img">
+        <div class="main__text">
+            <h1 class="main__text--title">Построй свое будущее вместе с нами</h1>
+            <div class="main__text--subtitle">Быстрая и качественная разработка, подготовленый персонал. Поддержка и обслуживание. Для того чтобы сделать заказ, авторизируйтесь!</div>
+        </div>
+
+            <div class="main__services_container" id="serv">
+               
+                <div class="services__container_item">
+                    <div class="services__container_item--title">Аналитика</div>
+                    <div class="services__container_item--price">от 20000 ₽</div>
+                    <a class="services__container_item--btn" asp-area="" asp-controller="Home" asp-action="Orders">Заказать</a>
+                </div>
+
+                <div class="services__container_item">
+                    <div class="services__container_item--title">Разаработка макета БД</div>
+                    <div class="services__container_item--price">от 0000 ₽</div>
+                    <a class="services__container_item--btn" asp-area="" asp-controller="Home" asp-action="Orders">Заказать</a>
+                </div>
+
+                <div class="services__container_item">
+                    <div class="services__container_item--title">Разработка и настройка БД</div>
+                    <div class="services__container_item--price">от 0000 ₽</div>
+                    <a class="services__container_item--btn" asp-area="" asp-controller="Home" asp-action="Orders">Заказать</a>
+                </div>
+
+                <div class="services__container_item">
+                    <div class="services__container_item--title">Восстановление БД</div>
+                    <div class="services__container_item--price">от 0000 ₽</div>
+                    <a class="services__container_item--btn" asp-area="" asp-controller="Home" asp-action="Orders">Заказать</a>
+                </div>
+
+            </div>
+    }
+    else
+    {
+        <section class="main_photos">
+
+            <img src="~/img/344.jpg" width="1150" height="700" alt="mainImg" class="main__img">
+            <div class="main__text">
+                <h1 class="main__text--title">Построй свое будущее вместе с нами</h1>
+                <div class="main__text--subtitle">Быстрая и качественная разработка, подготовленый персонал. Поддержка и обслуживание. Для того чтобы сделать заказ, авторизируйтесь!</div>
+            </div>
+
+
+            <div class="main__services_container" id="serv">
+
+                <div class="services__container_item">
+                    <div class="services__container_item--title">Аналитика</div>
+                    <div class="services__container_item--price">от 20000 ₽</div>
+                </div>
+
+                <div class="services__container_item">
+                    <div class="services__container_item--title">Разаработка макета БД</div>
+                    <div class="services__container_item--price">от 0000 ₽</div>
+                </div>
+
+                <div class="services__container_item">
+                    <div class="services__container_item--title">Разработка и настройка БД</div>
+                    <div class="services__container_item--price">от 0000 ₽</div>
+                </div>
+
+                <div class="services__container_item">
+                    <div class="services__container_item--title">Восстановление БД</div>
+                    <div class="services__container_item--price">от 0000 ₽</div>
+                </div>
+
+            </div>
+
+        </section>
+}
+
+    </section>

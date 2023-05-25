@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - CustomIdentityApp</title>
+    <link rel="stylesheet" href="~/css/style2.css">
+</head>
+<body>
+    <header class="header">
+        <a asp-area="" asp-controller="Home" asp-action="Index" class="header__logo">YDB</a>
+        <nav class="header__nav">   
+            <ul class="header__main-menu">
+                <li><a asp-area="" asp-controller="Home" asp-action="Index" class="header__nav-item">Главная</a></li>
+                <li><a href ="#cont">Контакты</a></li>
+                <li><a href="#serv">Услуги</a></li>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="form_padding">
+                        <form method="post" asp-controller="Account" asp-action="Logout" >
+                            <button class="logout_btn" type="submit">Выход</button>
+                        </form>
+                    </div>
+                }
+                else
+                {
+                    <div class="header__login">
+                        <a asp-area="" asp-controller="Account" asp-action="Login" class="header__login-in">Войти</a>
+                        <a asp-area="" asp-controller="Account" asp-action="Register" class="header__login-up">Регистрация</a>
+                    </div>
+                }
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        @RenderBody()
+    </main>
+
+    <footer class="footer" id="cont">
+        <section class="leftside">
+            <h2 class="leftside__title">Подпишись на наши новости</h2>
+            <form action="index.html" class="leftside__email_form" id="form">
+                <input type="email" placeholder="Email Adress" class="leftside__email_form-input">
+                <button asp-area="" asp-controller="Home" asp-action="Index" class="leftside__email_form-btn"><img src="~/img/backcopy2.png" alt="rigntarrow" width="33" height="15"></button>
+            </form>
+            <div class="leftside__text">Подпишитесь на нашу рассылку новостей о специальных предложениях и получите скидку 10% на свой следующий заказ.</div>
+            <div class="leftside__copirate">© 2022 Your Data Base</div>
+        </section>
+
+        <section class="rightside">
+            <nav>
+                <ul class="rightside__links_nav">
+                    <li class="li_animation"><a href="#">Условия и положения</a></li>
+                    <li class="li_animation"><a href="#">Конфиденциальность</a></li>
+                </ul>
+            </nav>
+
+            <div class="rightside__banks">
+                <img src="~/img/paypal.png" alt="paypallogo" width="50" height="50">
+                <img src="~/img/master-card.png" alt="master-cardlogo" width="48" height="48">
+                <img src="~/img/visa.png" alt="visalogo" width="47" height="47">
+            </div>
+
+            <div class="rightside__social">
+                <div class="social__container">
+                    <div class="social__container--number">Телефон: +7957577575</div>
+                    <div class="social__container_media">
+                        Соцсети:
+                        <a href="#"><img src="~/img/iconfinder-social-media-applications-3instagram-4102579_113804.png" alt="inst" class="container__media--inst"></img></a>
+                        <a href="#"><img src="~/img/VK-Icon_icon-icons.com_52860.png" alt="vk" class="container__media--vk"></a>
+                    </div>
+                    <div class="social__container--gmail">Почта для заявок: ydbru@mail.com</div>
+                </div>
+
+            </div>
+        </section>
+    </footer>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

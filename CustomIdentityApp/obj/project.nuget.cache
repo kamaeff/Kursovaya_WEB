@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "moJd2HtuXxorTYbmhlbgVU/e8AyH2kYhnE48Y6xU8KQtCBIYNQHxyJPE+D4dssuF6PWrl+QtfW0jLQoVssm9lw==",
+  "dgSpecHash": "RfVGkolvBBypSkht4E+OdJrj5dIpL4l2+nB0IxynvwzLUKQh0gAbImE+UFLV3pVcC5oKPlORHxWCQkB0WGnfJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kamae\\OneDrive\\Desktop\\CustomIdentityApp\\CustomIdentityApp\\CustomIdentityApp.csproj",
+  "projectFilePath": "C:\\Users\\kamae\\OneDrive\\Desktop\\Учеба\\КУРСОВАЯ_WEB\\CustomIdentityApp\\CustomIdentityApp\\CustomIdentityApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamae\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
     "C:\\Users\\kamae\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.1\\microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",

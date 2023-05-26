@@ -5,22 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\img\png\support.png" />
-    <None Include="wwwroot\img\png\truck1.png" />
-    <None Include="wwwroot\img\png\truck2.png" />
-    <None Include="wwwroot\img\png\truck3.png" />
-    <None Include="wwwroot\img\png\truck4.png" />
-    <None Include="wwwroot\img\svg\about_button.svg" />
-    <None Include="wwwroot\img\svg\booking_button.svg" />
-    <None Include="wwwroot\img\svg\booking_button1.svg" />
-    <None Include="wwwroot\img\svg\cars_button.svg" />
-    <None Include="wwwroot\img\svg\fast.svg" />
-    <None Include="wwwroot\img\svg\Group 3.svg" />
-    <None Include="wwwroot\img\svg\Group 4.svg" />
-    <None Include="wwwroot\img\svg\login_button.svg" />
-    <None Include="wwwroot\img\svg\logo.svg" />
-    <None Include="wwwroot\img\svg\quality.svg" />
-    <None Include="wwwroot\img\svg\secure.svg" />
     <None Include="wwwroot\scripts\anim1.js" />
     <None Include="wwwroot\scripts\cars_gallery.js" />
     <None Include="wwwroot\scripts\jquery.js" />
@@ -32,10 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="wwwroot\css\style2.css">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
+    <Folder Include="wwwroot\css\" />
   </ItemGroup>
 
 </Project>

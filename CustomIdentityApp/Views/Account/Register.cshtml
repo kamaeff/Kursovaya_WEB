@@ -4,21 +4,20 @@
     ViewData["Title"] = "Rgister Page";
 }
 
-<form method="post" asp-controller="Account" asp-action="Register" class="registerPage">
+<form class="register_form" method="post" asp-controller="Account" asp-action="Register">
     <div asp-validation-summary="ModelOnly"></div>
     <div>
-        <input class="registerPage_email" placeholder="Твой Email" asp-for="Email" />
+        <input class="register_email" placeholder="Email" asp-for="Email" />
         <span asp-validation-for="Email"></span>
     </div>
     <div>
-        <input class="registerPage_pass" placeholder="Придумай Пароль" asp-for="Password" />
+        <input class="register_pass" placeholder="Введи пароль" asp-for="Password" />
         <span asp-validation-for="Password"></span>
     </div>
     <div>
-        <input class="registerPage_repass" placeholder="Повтори пароль" asp-for="PasswordConfirm" />
-        <span asp-validation-for="PasswordConfirm"></span>
+        <input class="registr_repass" placeholder="Повтори пароль" asp-for="PasswordConfirm" />
     </div>
     <div>
-        <input class="registerPage_btn" type="submit" value="Регистрация" />
+        <input class="register_btn" type="submit" value="Регистрация" />
     </div>
 </form>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kamae\\OneDrive\\Desktop\\CustomIdentityApp\\CustomIdentityApp\\CustomIdentityApp.csproj": {}
+    "C:\\Users\\kamae\\OneDrive\\Desktop\\Учеба\\КУРСОВАЯ_WEB\\CustomIdentityApp\\CustomIdentityApp\\CustomIdentityApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kamae\\OneDrive\\Desktop\\CustomIdentityApp\\CustomIdentityApp\\CustomIdentityApp.csproj": {
+    "C:\\Users\\kamae\\OneDrive\\Desktop\\Учеба\\КУРСОВАЯ_WEB\\CustomIdentityApp\\CustomIdentityApp\\CustomIdentityApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamae\\OneDrive\\Desktop\\CustomIdentityApp\\CustomIdentityApp\\CustomIdentityApp.csproj",
+        "projectUniqueName": "C:\\Users\\kamae\\OneDrive\\Desktop\\Учеба\\КУРСОВАЯ_WEB\\CustomIdentityApp\\CustomIdentityApp\\CustomIdentityApp.csproj",
         "projectName": "CustomIdentityApp",
-        "projectPath": "C:\\Users\\kamae\\OneDrive\\Desktop\\CustomIdentityApp\\CustomIdentityApp\\CustomIdentityApp.csproj",
+        "projectPath": "C:\\Users\\kamae\\OneDrive\\Desktop\\Учеба\\КУРСОВАЯ_WEB\\CustomIdentityApp\\CustomIdentityApp\\CustomIdentityApp.csproj",
         "packagesPath": "C:\\Users\\kamae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamae\\OneDrive\\Desktop\\CustomIdentityApp\\CustomIdentityApp\\obj\\",
+        "outputPath": "C:\\Users\\kamae\\OneDrive\\Desktop\\Учеба\\КУРСОВАЯ_WEB\\CustomIdentityApp\\CustomIdentityApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kamae\\AppData\\Roaming\\NuGet\\NuGet.Config",
